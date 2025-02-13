@@ -51,7 +51,7 @@ SystemC includes sc_time for defining time delays and event scheduling.<br>
 To configure SystemC for simulation in Visual Studio, follow these steps:<br>
 Open systemC.sln in Visual Studio and click Build.<br>
 Create a New Project via File → New Project.<br>
-**Set Up Project Properties:**
+**Set Up Project Properties:** <br>
 => VC++ Settings:<br>
 **Include Directories** → Set to path navigating to src folder.<br>
 **Library Directories** → Set to path navigating to debug folder.<br>
