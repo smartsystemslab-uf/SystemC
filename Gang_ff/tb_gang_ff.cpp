@@ -17,8 +17,6 @@ SC_MODULE(tb_gang_ffs) {
             wait(5, SC_NS);
       
         }
-
-   
     }
 
     SC_CTOR(tb_gang_ffs) {
@@ -30,8 +28,6 @@ SC_MODULE(tb_gang_ffs) {
         sensitive << clk;
     }
 };
-
-// Main function
 int sc_main(int argc, char* argv[]) {
     tb_gang_ffs tb("TB_GangFF");
     sc_start(50,SC_NS);
