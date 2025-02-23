@@ -1,5 +1,5 @@
 #include "systemc.h"
-#include "moore.cpp"
+#include "fsm_moore1.cpp"
 
 SC_MODULE(tb_fsm_moore) {
     sc_signal<bool> a, reset, output;
